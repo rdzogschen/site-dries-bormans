@@ -40,7 +40,7 @@ nav.menu a {
 
 nav.menu a:hover,
 nav.menu a.active {
-  color: #ff4040;
+  color: #2f6bff;
   text-decoration: underline;
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 .headline {
-  color: #ff4040;
+  color: #2f6bff;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -87,13 +87,13 @@ main {
 .emails li:first-child { font-size: 17px; }
 
 .emails li::before {
-  content: "⛧";
+  content: attr(data-emoji);
   font-size: 20px;
   margin-right: 14px;
   vertical-align: -2px;
 }
 
-.emails a { color: #ff4040; }
+.emails a { color: #2f6bff; }
 
 .divider {
   margin: 60px 0 30px;
@@ -104,7 +104,7 @@ main {
 /* ---------- links ---------- */
 .hl {
   display: inline-block;
-  background: #b1e690;
+  background: #fff07a;
   color: #383838;
   font-weight: 700;
   text-decoration: underline;
@@ -129,7 +129,7 @@ h1.hl {
   min-width: 140px;
 }
 
-.music-links a:hover { background: #ff4040; color: #fff; }
+.music-links a:hover { background: #2f6bff; color: #fff; }
 
 .red-block {
   display: inline-flex;
@@ -141,7 +141,7 @@ h1.hl {
 }
 
 .red-block > * {
-  background: #d11515;
+  background: #1f4fe0;
   color: #fff;
   margin: 0;
   padding: 2px 6px;
@@ -152,9 +152,9 @@ h1.hl {
 
 /* ---------- shop ---------- */
 .shop-msg { font-size: 15px; line-height: 1.7; margin: 0; }
-.shop-msg a { color: #ff4040; }
+.shop-msg a { color: #2f6bff; }
 .soon {
-  color: #ff4040;
+  color: #2f6bff;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -212,15 +212,15 @@ button.submit {
   width: 190px;
   padding: 9px;
   background: transparent;
-  border: 2px solid #2b2bd8;
-  color: #2b2bd8;
+  border: 2px solid #1f4fe0;
+  color: #1f4fe0;
   font: inherit;
   font-weight: 700;
   font-size: 13px;
   cursor: pointer;
 }
 
-button.submit:hover { background: #2b2bd8; color: #fff; }
+button.submit:hover { background: #1f4fe0; color: #fff; }
 
 .form-status { font-size: 13px; margin-top: 14px; }
 .hp { display: none; }
@@ -229,9 +229,9 @@ button.submit:hover { background: #2b2bd8; color: #fff; }
 .legal { text-align: left; max-width: 680px; margin: 0 auto 40px; }
 .legal h1 { font-size: 28px; text-align: center; display: block; width: fit-content; margin: 0 auto 34px; }
 .legal h2 { font-size: 17px; margin: 30px 0 8px; text-transform: lowercase; }
-.legal h2::before { content: "⛧ "; }
+.legal h2::before { content: "🎵 "; }
 .legal p, .legal li { font-size: 13px; line-height: 1.6; }
-.legal a { color: #ff4040; }
+.legal a { color: #2f6bff; }
 
 /* ---------- footer ---------- */
 footer {
@@ -261,7 +261,7 @@ footer {
 }
 
 .home-star { display: block; text-align: center; font-size: 13px; color: #000; text-decoration: none; margin-bottom: 8px; }
-.home-star:hover { color: #ff4040; }
+.home-star:hover { color: #2f6bff; }
 
 .copy { text-align: center; font-size: 10px; color: #000; margin: 0; }
 
